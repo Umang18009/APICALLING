@@ -105,7 +105,7 @@ class _DummyJsonState extends State<DummyJson> {
 
   Future<void> forGetData() async {
     var url = Uri.parse('https://dummyjson.com/products');
-    print('44444444444444444444444444444444');
+    print('4444444444');
     var response = await http.get(url);
     print('Response status: ${response.statusCode}');
     print('Response body: ${response.body}');
